@@ -5,7 +5,6 @@ public class IntegerArraySorter
     public int[] SortArray(int[] array)
     {
        var oddNumbersQueue = GetOddNumbers(array);
-
        for (var index = 0; index < array.Length; index++)
        {
            if (array[index] % 2 != 0)
